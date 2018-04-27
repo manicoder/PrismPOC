@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{492496AE-5091-4CAB-AC5A-A05E0A10E0A8}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PrismPOC" expanded="True">
+            <Node name="PrismPOC" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="ViewD.xaml" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.PrismPOC.Droid PreferredExecutionTarget="Android.192.168.56.101:5555" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.PrismPOC.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2F5194F7-6ED7-4D6E-83A2-3FD66128F53B">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.PrismPOC.iOS>
+  <MultiItemStartupConfigurations />
+</Properties>

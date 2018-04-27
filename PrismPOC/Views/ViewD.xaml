@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="PrismPOC.Views.ViewD">
+    <ContentPage.Content>
+       <ScrollView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+             <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="10">
+            <Label Text="{Binding NavPath}" LineBreakMode="WordWrap" />
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Label Text="View D" FontSize="25" Margin="30" />
+                <Button Text="Go Back" FontSize="25" Command="{Binding NavigateCommand}" Margin="30" />
+                <Button Text="Go To View A" FontSize="25" Command="{Binding NavigateViewACommand}" Margin="30" />
+                <Button Text="Go To Root Page" FontSize="25" Command="{Binding NavigateRootCommand}" Margin="30" />
+                <Button Text="Go To Root Page Using(../)" FontSize="25" Command="{Binding NavigateRootDotCommand}" Margin="30" />
+            </StackLayout>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
